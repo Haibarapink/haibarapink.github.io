@@ -4,3 +4,4 @@
 
 layout: home
 ---
+[daily](daily/daily.md)
