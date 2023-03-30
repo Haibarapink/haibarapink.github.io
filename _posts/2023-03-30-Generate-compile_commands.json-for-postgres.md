@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "generate-compile_commands.json-for-postgres"
+title:  "Generate compile_commands.json for postgres"
 ---
 # Generate compile_commands.json for postgres
 compile_commands.json is a file used by clangd to provide code completion, jump definition, etc.
