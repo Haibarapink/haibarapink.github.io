@@ -19,6 +19,7 @@ The deletation in bplus-tree following the steps below:
 5. Fetch the first or last key from brother(if brother node is left, fetch the last key, else fetch the first key), and insert the key into the node, and delete the key from the brother node.
 6. Put the right node's keys & values into left node, and delete the right node from the parent node.
 7. Follow step 3 and 4 until the root node is not merged.If the root node is merged, update the root node pointer. 
+   
 ---
 # Variable Length Records in B+ Tree
 The standard design for variable-length records in fixed-length pages in bplus-tree, 
@@ -36,8 +37,11 @@ page : |item1|item2|item3|item4|....|records1|records2|records3|records4|....|
 # How to update a page in variable-length bplus-tree?
 Find the page, and read the page into memory. And deserialize the page to a data structure. Then 
 modify the data structure. Finally, serialize the data structure to a page, and write the page.
+
 ---
+
 # Normailzed Keys
 Records are saved as a sequence of bytes, and compared by the methods , such as memcmp. 
 This way reduces the cost of comparisions, and many implementations of bplus-tree use this way.
+
 ---
