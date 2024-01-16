@@ -9,7 +9,7 @@ title:  "Construction of Disk"
 
 The data is saved on the disk, the disk is divided into two partitions, the Sector and Track.
 The Sector is the smallest unit of the disk.
-![Sector and Track](/assert/img/disk-construct.png)
+![Sector and Track](https://raw.githubusercontent.com/Haibarapink/haibarapink.github.io/master/_posts/img/disk-construct.png)
 
 And the cylinder is the set of tracks with the same number.
-![Cylinder](/assert/img/disk-construct2.png)
+![Cylinder](https://raw.githubusercontent.com/Haibarapink/haibarapink.github.io/master/_posts/img/disk-construct2.png)
